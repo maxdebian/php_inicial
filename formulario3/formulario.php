@@ -10,7 +10,7 @@
     <form action="procesar_formulario.php" method="post" enctype="multipart/form-data">
         <label for="">Agregar Archivo</label>   
         <br> 
-        <input type="file" name="fileInput" accept=".iso">
+        <input type="file" name="fileInput" accept=".png">
         <br>
         <button type="submit">Enviar</button>
     </form>    

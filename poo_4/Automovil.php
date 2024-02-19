@@ -11,7 +11,8 @@
         }
 
         public function getAll(){
-            echo $this->color.'  Marca  '.$this->getMarca();
+            $saludo = 'Hola';
+            echo $this->color.'  Marca  '.$this->getMarca().'   '.$saludo;
         }
         public function setMarca($variableMarca){
             $this->marca = $variableMarca;
